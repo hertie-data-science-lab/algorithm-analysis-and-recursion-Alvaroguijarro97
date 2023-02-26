@@ -5,7 +5,8 @@ Created on Mon Feb 20 08:24:20 2023
 @author: Hannah
 """
 
-n=3
+# input the amount of disks
+n = int(input("Enter the amount of disks : "))
 def TowerOfHanoi(n, from_rod, to_rod, aux_rod):
     if n == 0:
         return
